@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --header-bg: #1abc9d;
+    --main-bg: #000;
+    --footer-bg: #fff;
+}
+
+header {
+    background-color: var(--header-bg);
+}
+
+.baslik {
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+    text-align: center;
+    color: white;
+}
+
+nav {
+    width: 100%;
+    background-color: #333;
+    padding: 5px 0;
+}
+
+nav ul a {
+    color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 5px;
+}
+
+nav ul li:hover {
+    background-color: var(--header-bg);
+}
+
+.sidebar, .blog {
+    display: inline-block;
+}
+
+.sidebar {
+    width: 28%;
+    background-color: gainsboro;
+    float: left;
+}
+
+.blog {
+    width: 68%;
+}
+
+.aside-top ,.aside-top img, .aside-bottom, .aside-bottom img {width: 100%;}
+
+.aside-top {
+    width: 90%;
+    margin: auto;
+}
+
+.aside-top img {
+    width: 100%;
+}
+
+.aside-bottom {
+    width: 90%;
+    margin: 25px auto;
+
+}
+
+.aside-bottom img {
+    width: 100%;
+}
+
+.blog article {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.blog article img {
+    width: 100%;
+}
+
+.blog article h3, .blog article p, .blog article figure {
+    margin-bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    padding: 20px 0px;
+    background-color: var(--header-bg);
+}
+
+footer p {
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+}
+

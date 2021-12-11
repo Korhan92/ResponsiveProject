@@ -1,0 +1,47 @@
+@media screen and (max-width: 425px) {
+    nav ul li {
+        display: block;
+        width: 100%;
+    }
+    .sidebar, .blog {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .baslik {
+        display: none;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width:1024px) {}
+
+
+
+
+@media screen and (min-width: 1024px) and (max-width:1366px) {}
